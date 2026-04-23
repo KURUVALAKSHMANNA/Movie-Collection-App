@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Collection Page</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+
+    <!-- Login Page -->
+    <div class="container" id="loginPage">
+        <h2>Login Page</h2>
+        <input type="email" id="loginEmail" placeholder="Enter Email"><br>
+        <input type="password" id="loginPassword" placeholder="Enter Password"><br>
+        <button onclick="login()">Login</button>
+        <p id="loginError" style="color:red;"></p>
+
+        <p>Account not registered?</p>
+        <button onclick="showRegister()">Create Account</button>
+    </div>
+
+    <!-- Register Page -->
+    <div class="container" id="registerPage">
+        <h2>Create Account</h2>
+        <input type="text" id="registerName" placeholder="Enter Name"><br>
+        <input type="email" id="registerEmail" placeholder="Enter Email"><br>
+        <input type="password" id="registerPassword" placeholder="Enter Password"><br>
+        <button onclick="registerUser()">Register</button>
+        <p id="registerMsg"></p>
+        <p id="registerError" style="color:red;"></p>
+
+        <p>Already registered?</p>
+        <button onclick="showLogin()">Back to Login</button>
+    </div>
+
+    <!-- Movie Collection Page -->
+    <div class="moviecontainer" id="moviePage">
+        <h2>Movie Collection Page</h2>
+        <input type="text" id="searchInput" placeholder="Enter movie name">
+        <button onclick="searchMovies()">Search</button>
+        <button onclick="logout()">Logout</button>
+        <ul id="movieList"></ul>
+    </div>
+
+    <script src="movie.js"></script>
+</body>
+</html>
