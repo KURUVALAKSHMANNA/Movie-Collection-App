@@ -53,6 +53,22 @@ UI improvements include:
 
 ---
 
+## 🚀 Future Enhancements
+
+- Add movie details page with plot, actors, director, genre, and ratings
+- Add favorite/watchlist feature for saved movies
+- Add search filters by year, type, and genre
+- Improve login/signup validation
+- Add dark mode and light mode toggle
+- Show loading animation while fetching API data
+- Add error handling for invalid movie names
+- Make UI more professional with better movie cards
+- Add pagination for large search results
+- Deploy the project using GitHub Pages or Netlify
+- Convert this project into React.js in the future
+
+----
+
 # 🛠️ Technologies Used
 
 | Technology | Purpose |
