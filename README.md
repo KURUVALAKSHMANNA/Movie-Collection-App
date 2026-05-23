@@ -115,8 +115,6 @@ Aspiring Java Full Stack Developer passionate about:
 ### GitHub Profile
 🔗 https://github.com/KURUVALAKSHMANNA
 
-# 📬 Contact Me
-
 ## Lakshmanna K
 
 🎓 Final Year B.Tech CSE Student  
@@ -135,6 +133,5 @@ Aspiring Java Full Stack Developer passionate about:
 ### Email
 📧 kuruvalakshmanna4154@gmail.com
 
-# 🎬 Project Vision
-
-> “To create an interactive and user-friendly movie browsing platform that combines frontend development, OMDb API integration, and real-time dynamic content rendering while improving practical JavaScript and web development skills.”
+## Quote
+This project helped me understand how real-world web applications work by combining UI design, API integration, and user interaction.
